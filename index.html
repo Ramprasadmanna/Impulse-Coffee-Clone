@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title  -->
+    <title>Impulse Coffees</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Images/logo.png">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="coffee.css">
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="landing">
+        <img src="Images/logo.png" alt="" id="logo" onclick="reloadpage()">
+        <div class="heading">WELCOME TO OUR WORLD OF</div>
+        <div class="intro">IMPULSE COFFEE</div>
+    </div>
+
+    <div class="types">
+        <br><br>
+        <a name="collection1">
+            <h1>OUR COLLECTIONS</h1>
+        </a>
+        <br>
+        <hr class="hr">
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <a href="Product1.html" target="">
+                <div class="image-holder">
+                    <img src="Images/1.jpg" alt="" id="pimg">
+                </div>
+            </a>
+            <a href="Product1.html">
+                <p>Mocha Pe Chauka Premium Instant Coffee</p>
+            </a>
+        </div>
+        <div class="product">
+            <a href="Product2.html">
+                <div class="image-holder">
+                    <img src="Images/2.jpg" alt="" id="pimg">
+                </div>
+            </a>
+            <a href="Product2.html">
+                <p>Vichaar Over Vanilla Premium Instant Coffee</p>
+            </a>
+        </div>
+        <div class="product">
+            <a href="Product3.html">
+                <div class="image-holder">
+                    <img src="Images/3.jpg" alt="" id="pimg">
+                </div>
+            </a>
+            <a href="Product3.html">
+                <p>Raat ki Rani Espresso Premium Instant Coffee</p>
+            </a>
+        </div>
+        <div class="product">
+            <a href="Product4.html">
+                <div class="image-holder">
+                    <img src="Images/4.jpg" alt="" id="pimg">
+                </div>
+            </a>
+            <a href="Product4.html">
+                <p>Pyaarbhari Chocolate Raspberry Premium Instant Coffee</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <br><br>
+        <h1>SUBSCRIBE TO OUR NEWSLETTER!</h1>
+        <br>
+        <h3>Get the latest update on all our launches and offers !</h3>
+        <hr class="hr">
+        <div class="subscribe">
+            <form action="subscriptions.php" method="post" id="subs" onsubmit="h()">
+                <input type="email" id="email" name="email" placeholder="  Your Email">
+                <button type="submit" id="button" onclick="validate()">Subscribe</button>
+            </form>
+        </div>
+        <br><br><br>
+    </div>
+    <div class="footer">
+        <br>
+        <h1>100% COFFEE, 0% NONSENSE</h1><br>
+        <hr class="hr">
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>Terms Of Service</li>
+                            <li>Refund Policy</li>
+                            <li>Shipping Policy</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                            <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+                            <li><i class="fa-brands fa-youtube"></i> You Tube</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li><i class="fa-solid fa-copyright"></i> 2022,Impulse Coffees</li>
+                            <li><i>- Ramprasad Manna</i></li>
+                            <li><i>- Shruti Maity</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <a href="#collection1">
+        <div class="gotobg">
+            <h3 class="gototext">Go To Collection</h3>
+        </div>
+    </a>
+</body>
+<script src="validate.js"></script>
+
+</html>

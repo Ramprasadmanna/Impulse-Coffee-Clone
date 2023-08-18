@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    font-family: "Noto Serif", serif;
+}
+
+body {
+    background-color: #fedcba;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #591413;
+    font-weight: 400;
+}
+
+.hr {
+    margin: 20px auto;
+    border-width: 2px 0 0 0;
+    width: 50px;
+    clear: both;
+    border-top: solid #591413;
+    height: 0;
+}
+
+/* Landing Page */
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.527)), url(Images/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    color: #fedcba;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+.intro {
+    color: #fedcba;
+    text-align: center;
+    font-size: 116px;
+}
+
+#logo {
+    margin-top: 60px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+/* Products Section */
+
+.products {
+    max-width: 1200px;
+    margin: 10px auto 45px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.product .image-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+.product .image-holder {
+    box-shadow: rgba(2, 2, 2, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    height: 250px;
+    width: 370px;
+}
+
+#pimg {
+    transition: scale 0.3s ease;
+}
+
+#pimg:hover {
+    color: linear-gradient(rgba(0, 0, 0, 0.200));
+    scale: 1.1;
+}
+
+.product p {
+    font-size: 15px;
+}
+
+/* NewsLetter Section */
+
+.newsletter {
+    background-color: #fbbc33;
+}
+
+
+.subscribe {
+    margin: auto;
+}
+
+#subs {
+    background-color: #fedcba;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#email {
+    padding: 4px 8px;
+    width: 360px;
+    height: 45px;
+    background-color: #fedcba;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+#email:focus {
+    border: 1px solid #591413;
+}
+
+#button {
+    width: 130px;
+    height: 48px;
+    padding: 4px 8px;
+    background-color: #591413;
+    color: #fbbc33;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cart:hover {
+    background-color: #4d1413a5;
+    cursor: pointer;
+}
+
+#subs1:hover {
+    background-color: #4d1413a5;
+    cursor: pointer;
+}
+
+
+::placeholder {
+    color: #591413;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: -54px;
+    margin-bottom: -56px;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.25em;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #591413;
+}
+
+.footer {
+    padding: 60px 0px;
+}
+
+.footer-col {
+    width: 360px;
+    padding: 0px 15px;
+}
+
+.gotobg {
+    background-color: #fbbc33;
+}
+
+.gototext {
+    padding: 10px 0 10px 0px;
+}

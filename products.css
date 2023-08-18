@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fedcba;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 45px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    color: #591413;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+}
+
+/* Product Container */
+
+.product-Container {
+    margin: 60px auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.product-Container #product {
+    height: 380px;
+    width: 570px;
+}
+
+.product-Container .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ul {
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #591413;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.25em;
+}
+
+
+.name {
+    width: 478px;
+    font-size: 2.90em;
+}
+
+#cart {
+    margin-right: 63px;
+    width: 267px;
+    height: 43px;
+    background-color: #591413;
+    color: #fbbc33;
+    border: none;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+#cart:hover {
+    background-color: #4d1413a5;
+    cursor: pointer;
+}
+
+span {
+    color: #591413eb;
+    font-size: 19px;
+}
+
+.pinfo {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#description {
+    font-size: 20px;
+}
+
+a {
+    color: #591413;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+}
